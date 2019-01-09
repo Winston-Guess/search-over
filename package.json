@@ -3,9 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.8.1",
+    "@material-ui/icons": "^3.0.1",
+    "autosuggest-highlight": "^3.1.1",
+    "await-handler": "^1.1.2",
+    "node-sass": "^4.11.0",
     "react": "^16.7.0",
+    "react-autosuggest": "^9.4.3",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3"
+    "react-scripts": "2.1.3",
+    "typeface-roboto": "0.0.54",
+    "unsplash-js": "^4.8.0",
+    "url-parse": "^1.4.3"
   },
   "scripts": {
     "start": "react-scripts start",

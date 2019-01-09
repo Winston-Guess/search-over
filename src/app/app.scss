@@ -1,0 +1,15 @@
+.over-app {
+    height: calc(100vh - 55px);
+    box-sizing: border-box;
+
+    .grid-list {
+        padding: 10px;
+        height: calc(100% - 55px);
+        overflow: auto;
+        box-sizing: border-box;
+    }
+
+    .grid-tile {
+        padding: 5px;
+    }
+}

@@ -1,0 +1,32 @@
+.auto-suggest {
+	display: flex;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 5px 20px;
+
+	.search-terms-field {
+		min-width: 600px;
+		box-sizing: border-box;
+		height: 44px;
+	}
+
+	.search-input-field {
+		height: 30px;
+		padding-top: 6px;
+	}
+
+	.search-chip {
+		font-size: 16px;
+		margin-right: 3px;
+
+		&.is-coloured {
+			background-color: mediumspringgreen;
+			transition: background-color 0.3s ease-in-out;
+		}
+
+		@keyframes fadein {
+			0%,100% { background-color: 0; }
+			50% { background-color: 1; }
+		}
+	}
+}
